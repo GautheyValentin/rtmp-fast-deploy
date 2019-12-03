@@ -10,5 +10,5 @@ unzip master.zip
 rm master.zip
 cd rtmp-fast-deploy-master
 chmod +x install.sh
-./install.sh
+sudo ./install.sh
 ```
