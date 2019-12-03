@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt install gcc build-essential libpcre3 libpcre3-dev libssl-dev zlib1g zlib1g-dev
+apt install -y gcc build-essential libpcre3 libpcre3-dev libssl-dev zlib1g zlib1g-dev
 
 path=$(pwd)
 

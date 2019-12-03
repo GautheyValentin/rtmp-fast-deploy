@@ -4,7 +4,7 @@ Two application setup in install.sh
 ## Install
 ```
 sudo apt update
-sudo apt install unzip git
+sudo apt install -y unzip git
 wget https://github.com/GautheyValentin/rtmp-fast-deploy/archive/master.zip
 unzip master.zip
 rm master.zip
