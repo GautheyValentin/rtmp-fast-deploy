@@ -22,8 +22,7 @@ rm /usr/local/nginx/conf/nginx.conf
 cp $path/conf/nginx.conf /usr/local/nginx/conf/nginx.conf
 
 mkdir /mnt/hls
-mkdir /mnt/hls/server-one
-mkdir /mnt/hls/server-two
+mkdir /mnt/hls/live
 
 rm -Rf $path/nginx
 
